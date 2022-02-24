@@ -78,5 +78,6 @@ public class Product {
     public void addProductOptions(ProductOption productOption){
         productOptions.add(productOption);
         productOption.setProduct(this);
+        int a =10;
     }
 }
